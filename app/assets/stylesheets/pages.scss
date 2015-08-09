@@ -1,3 +1,162 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container_9{margin-left:auto;margin-right:auto;width:945px}
+.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9{display:inline;float:left;position:relative;margin-left:3px;margin-right:2px}
+.alpha{margin-left:0}.omega{margin-right:0}.container_9 .grid_1{width:100px}
+.container_9 .grid_2{width:205px}.container_9 .grid_3{width:310px}
+.container_9 .grid_4{width:415px}.container_9 .grid_5{width:520px}.container_9 .grid_6{width:625px}
+.container_9 .grid_7{width:730px}.container_9 .grid_8{width:835px}.container_9 .grid_9{width:940px}
+.container_9 .prefix_1{padding-left:105px}.container_9 .prefix_2{padding-left:210px}.container_9 .prefix_3{padding-left:315px}
+.container_9 .prefix_4{padding-left:420px}.container_9 .prefix_5{padding-left:525px}.container_9 .prefix_6{padding-left:630px}
+.container_9 .prefix_7{padding-left:735px}.container_9 .prefix_8{padding-left:840px}.container_9 .suffix_1{padding-right:105px}
+.container_9 .suffix_2{padding-right:210px}.container_9 .suffix_3{padding-right:315px}.container_9 .suffix_4{padding-right:420px}
+.container_9 .suffix_5{padding-right:525px}.container_9 .suffix_6{padding-right:630px}.container_9 .suffix_7{padding-right:735px}
+.container_9 .suffix_8{padding-right:840px}.container_9 .push_1{left:105px}.container_9 .push_2{left:210px}.container_9 .push_3{left:315px}
+.container_9 .push_4{left:420px}.container_9 .push_5{left:525px}.container_9 .push_6{left:630px}.container_9 .push_7{left:735px}
+.container_9 .push_8{left:840px}.container_9 .pull_1{left:-105px}.container_9 .pull_2{left:-210px}.container_9 .pull_3{left:-315px}
+.container_9 .pull_4{left:-420px}.container_9 .pull_5{left:-525px}.container_9 .pull_6{left:-630px}.container_9 .pull_7{left:-735px}
+.container_9 .pull_8{left:-840px}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
+.clearfix{display:inline-block}* html .clearfix{height:1%}.clearfix{display:block}
+
+* {
+  margin:  0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  word-spacing: 2px;
+  font-size: 11px;
+  color: #333;
+/*  background: #fff url('../i/stalactite.png') top right no-repeat;*/
+}
+
+h2 {
+  color: #444;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  word-spacing: 1px;
+}
+
+h3.active {
+  background: #999;
+}
+
+h3 {
+
+  width: 200px;
+  margin: 5px 0;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 100;
+  text-align: left;
+  font-size: 10px;
+
+  background: #ccc;
+  color: #fff;
+
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+
+h3 a:link, h3 a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+h3 a:hover, h3 a:active {
+  background: none;
+  color: #fff;
+  text-decoration: underline;
+}
+
+p {
+  margin: 0 0 25px 0;
+  line-height: 17px;
+  font-size: 11px;
+}
+
+img {
+  border: 0 !important;
+}
+
+a#download:link, a#download:visited {
+  margin-top: -20px;
+  display: block;
+  width: 100px;
+  height: 100px;
+
+  border: 1px dashed #333;
+  -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+          border-radius: 100px;
+}
+
+a#download:hover, a#download:active {
+    background: #efefef;
+}
+
+.mute { font-size: 9px; color: #444; }
+
+a:link, a:visited {
+  text-decoration: underline;
+  color: #333;
+}
+a:hover, a:active {
+    text-decoration: none;
+  background: #ff0;
+}
+
+.container_9 {;
+  border-bottom: 1px solid #efefef;
+}
+
+#text_cascade .character {
+
+  height: 55px;
+  float:  left;
+
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-align: center;
+
+  color: #333;
+  background: #ccc;
+
+  padding: 45px 0 0 0;
+  margin: 2px 3px 2px 2px;
+}
+
+#text_cascade .character:hover {
+  background: #efefef;
+}
+
+.content {
+  text-align: left;
+}
+.content * {
+  padding: 5px;
+}
+
+.container_9 .grid6 {
+  width: 625px;
+}
+.container_9 .grid9 {
+  width: 940px;
+}
+.container_9 .grid4 {
+  width: 415px;
+}
+
+footer, .section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
